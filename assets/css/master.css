@@ -4,12 +4,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  background-color: #0C325A;
 }
 
 .container{
   width: 80vw;
-  margin-top: 10px;
+  padding-top: 10px;
 }
 
 .row:after{
@@ -33,6 +32,7 @@
 
 .btn{
   border-radius: 5px;
+  text-transform: uppercase;
 }
 
 .btn-trans{
@@ -40,13 +40,17 @@
   padding: 5px 25px;
 }
 
-.btn-green{
+.bg-green{
   background-color: #7CBB02;
-  padding: 5px 10px;
 }
 /* f-utility */
 
 /* header */
+header{
+  height: 400px;
+  background-color: #0C325A;
+}
+
 nav .logo{
   display: inline-block;
   vertical-align: middle;
@@ -67,16 +71,56 @@ nav ul li{
   margin-left: 10px;
 }
 
+
+
 nav ul li a{
   list-style: none;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: lighter;
   font-size: 8px;
-  }
+}
 
-  nav .flt-dx{
-    float: right;
-    padding: 0 15px;
-  }
+nav .flt-dx{
+  float: right;
+  padding: 0 15px;
+}
+
+nav .btn-green{
+  padding: 5px 10px;
+}
+
+.col-60{
+  width: 60%;
+}
+
+.jumbo{
+  background: url("../img/background-header.png") no-repeat right bottom;
+  background-size: contain;
+  height: 300px;
+  margin-top: 56px;
+}
+
+.jumbo h1{
+  font-size: 35px;
+  font-weight: normal;
+  margin-bottom: 30px;
+  margin-top: 20px
+}
+
+.jumbo .btn{
+  text-decoration: none;
+  font-size: 10px;
+  padding: 15px 20px;
+}
+
+header .banner{
+  text-align: center;
+  background-color: #D3D3D3;
+  padding: 25px 0;
+}
+
+.banner h3{
+  font-size:
+}
 /* f-header */
