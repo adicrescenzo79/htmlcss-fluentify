@@ -26,8 +26,29 @@
   margin: 0 -15px;
 }
 
+.col-100{
+  width: 100%;
+}
+
+.col-60{
+  width: 60%;
+}
+
+.col-33{
+  width: calc(100% / 3)
+}
+
+.mt-1{
+  margin-top: 1em;
+}
+
 .txt-white{
   color: white;
+}
+
+.txt-grey{
+  color: #808080;
+  font-size: 13px;
 }
 
 .btn{
@@ -47,10 +68,11 @@
 
 /* header */
 header{
-  height: 400px;
+  height: 496px;
   background-color: #0C325A;
 }
 
+/* navigatore */
 nav .logo{
   display: inline-block;
   vertical-align: middle;
@@ -59,7 +81,6 @@ nav .logo{
 nav .logo img{
   width: 80px;
 }
-
 
 nav ul{
   display: inline-block;
@@ -70,8 +91,6 @@ nav ul li{
   display: inline-block;
   margin-left: 10px;
 }
-
-
 
 nav ul li a{
   list-style: none;
@@ -89,16 +108,14 @@ nav .flt-dx{
 nav .btn-green{
   padding: 5px 10px;
 }
+/* f-navigatore */
 
-.col-60{
-  width: 60%;
-}
-
+/* jumbo */
 .jumbo{
   background: url("../img/background-header.png") no-repeat right bottom;
   background-size: contain;
   height: 300px;
-  margin-top: 56px;
+  margin-top: 48px;
 }
 
 .jumbo h1{
@@ -113,14 +130,32 @@ nav .btn-green{
   font-size: 10px;
   padding: 15px 20px;
 }
+/* f-jumbo */
 
+/* banner */
 header .banner{
   text-align: center;
   background-color: #D3D3D3;
-  padding: 25px 0;
+  padding: 20px 0;
 }
 
-.banner h3{
-  font-size:
+.banner p{
+  padding-top: 5px;
 }
+/* f-banner */
 /* f-header */
+
+
+/* main */
+main{
+
+}
+
+.servizi .col-33{
+  text-align: center;
+}
+
+.servizi img{
+  height: 50px;
+}
+/* f-main */
