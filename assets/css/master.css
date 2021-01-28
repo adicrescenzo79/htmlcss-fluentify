@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -26,12 +26,20 @@
   margin: 0 -15px;
 }
 
+.mt-1{
+  margin-top: 1em;
+}
+
 .col-100{
   width: 100%;
 }
 
 .col-60{
   width: 60%;
+}
+
+.col-50{
+  width: 50%;
 }
 
 .col-33{
@@ -43,12 +51,16 @@
 }
 
 .txt-white{
-  color: white;
+  color: #ffffff;
 }
 
 .txt-grey{
   color: #808080;
   font-size: 13px;
+}
+
+.txt-green{
+  color: #7CBB02;
 }
 
 .btn{
@@ -68,11 +80,11 @@
 
 /* header */
 header{
-  height: 496px;
+  height: 482px;
   background-color: #0C325A;
 }
 
-/* navigatore */
+/* header-navigatore */
 nav .logo{
   display: inline-block;
   vertical-align: middle;
@@ -108,18 +120,20 @@ nav .flt-dx{
 nav .btn-green{
   padding: 5px 10px;
 }
-/* f-navigatore */
+/* f-header-navigatore */
 
-/* jumbo */
+/* header-jumbo */
 .jumbo{
   background: url("../img/background-header.png") no-repeat right bottom;
   background-size: contain;
+  background-position-x: 118%;
   height: 300px;
   margin-top: 48px;
+  padding-top: 17px;
 }
 
 .jumbo h1{
-  font-size: 35px;
+  font-size: 38px;
   font-weight: normal;
   margin-bottom: 30px;
   margin-top: 20px
@@ -130,9 +144,9 @@ nav .btn-green{
   font-size: 10px;
   padding: 15px 20px;
 }
-/* f-jumbo */
+/* f-header-jumbo */
 
-/* banner */
+/* header-banner */
 header .banner{
   text-align: center;
   background-color: #D3D3D3;
@@ -140,22 +154,43 @@ header .banner{
 }
 
 .banner p{
+  font-weight: 500;
   padding-top: 5px;
 }
-/* f-banner */
+/* f-header-banner */
 /* f-header */
 
 
 /* main */
-main{
-
-}
-
+/* main-riga1 */
 .servizi .col-33{
   text-align: center;
 }
 
 .servizi img{
-  height: 50px;
+  height: 110px;
+}
+
+.servizi p{
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.servizi hr{
+  width: 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50%;
+  transform: translatex(-50%);
+}
+/* f-main-riga1 */
+
+main .container > hr{
+  border:  1px solid #F2F2F2;
+  width: 95vw;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50%;
+  transform: translatex(-50%);
 }
 /* f-main */
