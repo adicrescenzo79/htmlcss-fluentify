@@ -22,6 +22,11 @@
   padding: 0 15px;
 }
 
+.flt-dx{
+  float: right;
+  padding: 0 15px;
+}
+
 .row{
   margin: 0 -15px;
 }
@@ -114,11 +119,6 @@ nav ul li a{
   text-transform: uppercase;
   font-weight: lighter;
   font-size: 8px;
-}
-
-nav .flt-dx{
-  float: right;
-  padding: 0 15px;
 }
 
 nav .btn-green{
@@ -219,3 +219,57 @@ main .container > hr{
 }
 /* f-main riga2 */
 /* f-main */
+
+/* footer */
+footer{
+  background-color: #D3D3D3;
+  padding: 33px 0;
+}
+
+footer h2{
+  vertical-align: middle;
+}
+
+footer form{
+  vertical-align: middle;
+  margin-bottom: 10px;
+
+}
+
+form, select{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+form select{
+  background-color: #D3D3D3;
+  padding-right: 40px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #808080;
+}
+
+form [type='submit']{
+  font-size: 10px;
+  border: none;
+  padding: 15px 10px;
+}
+
+form span, form select, form input{
+  margin-left: 2em;
+}
+
+footer a.btn{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 10px;
+  border: none;
+  padding: 10px 10px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-right: 150px;
+  border-radius: 5px 5px 0 0;
+}
+/* f-footer */
