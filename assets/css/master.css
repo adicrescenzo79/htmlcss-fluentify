@@ -50,6 +50,10 @@
   margin-top: 1em;
 }
 
+.mt-2{
+  margin-top: 2em;
+}
+
 .txt-white{
   color: #ffffff;
 }
@@ -171,15 +175,15 @@ header .banner{
   height: 110px;
 }
 
-.servizi p{
+main p{
   font-weight: 500;
   line-height: 1.4;
 }
 
 .servizi hr{
   width: 20%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   margin-left: 50%;
   transform: translatex(-50%);
 }
@@ -193,4 +197,25 @@ main .container > hr{
   margin-left: 50%;
   transform: translatex(-50%);
 }
+
+/* main riga2 */
+.livello{
+  padding: 0 60px;
+}
+
+.scopri{
+  padding: 0 34px;
+}
+
+.scopri h2{
+  line-height: 1.4;
+}
+
+.scopri a{
+  font-size: 11px;
+  font-weight: bold;
+  color: #5586BC;
+  display: inline-block;
+}
+/* f-main riga2 */
 /* f-main */
